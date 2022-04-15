@@ -1,0 +1,189 @@
+/* common start  */
+/* common end  */
+/* header start */
+header{
+  background-color: #fcdb00;
+  padding: 25px 0;
+}
+.ch1{
+  color: #000 !important;
+}
+.cus_nav{}
+.logo{}
+.menu{}
+.menu ul li a{
+  font-family: PTSans-Bold;
+  font-size: 22px;
+  color: #010101 !important;
+  padding-right: 100px !important;
+}
+.menu ul li:last-child a{
+  padding-right: 0 !important;
+}
+.menu ul li a:hover{
+  color: white !important;
+}
+/* header end */
+
+
+h1{
+  display: inline-block;
+  color: red !important;
+}
+
+hr{
+  width: 500px;
+  text-align: center !important;
+  background-color: #000;
+}
+
+.drop{
+  display: block;
+
+}
+#draggable {
+  width: 100px;
+  height: 100px;
+  padding: 0.5em;
+  float: left;
+  margin: 10px 10px 10px 0;
+  display: block;
+}
+
+#droppable {
+  width: 150px;
+  height: 150px;
+  padding: 0.5em;
+  float: left;
+  margin: 10px;
+  display: block;
+}
+
+
+
+#resizable {
+  width: 150px;
+  height: 150px;
+}
+
+
+
+#feedback {
+  font-size: 1.4em;
+}
+#selectable .ui-selecting
+{
+  background: #FECA40;
+}
+#selectable .ui-selected {
+  background: #F39814;
+  color: white;
+}
+#selectable {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 40%;
+}
+#selectable li {
+  margin: 3px;
+  padding: 0.4em;
+  font-size: 1.4em;
+  height: 18px;
+}
+
+
+
+
+#sortable {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 60%;
+}
+#sortable li {
+  margin: 0 3px 3px 3px;
+  padding: 0.4em;
+  padding-left: 1.5em;
+  font-size: 1.4em;
+  height: 18px;
+}
+#sortable li span {
+  position: absolute;
+  margin-left: -1.3em;
+}
+/* #resizable h3 { text-align: center; margin: 0; } */
+
+
+#accordion {
+  width: 800px;
+}
+
+
+.ui-menu {
+  width: 150px;
+}
+
+#slider{
+  margin-left: 10%;
+  width: 50%;
+  background-color: rgb(114, 185, 37);
+}
+
+
+
+
+#lebels {
+  display: inline-block; width: 5em;
+}
+fieldset div {
+  margin-bottom: 2em;
+}
+fieldset .help {
+  display: inline-block;
+}
+.ui-tooltip {
+  width: 210px;
+}
+
+
+
+/* color animation */
+.toggler { width: 500px; height: 200px; position: relative; }
+#button { padding: .5em 1em; text-decoration: none; }
+#effect { width: 240px; height: 170px; padding: 0.4em; position: relative; background: #fff; }
+#effect h3 { margin: 0; padding: 0.4em; text-align: center; }
+
+
+
+
+
+
+#parent {
+  width: 60%;
+  height: 40px;
+  margin: 10px auto;
+  padding: 5px;
+  border: 1px solid #777;
+  background-color: #fbca93;
+  text-align: center;
+}
+.positionable {
+  position: absolute;
+  display: block;
+  right: 0;
+  bottom: 0;
+  background-color: #bcd5e6;
+  text-align: center;
+}
+#positionable1 {
+  width: 75px;
+  height: 75px;
+}
+#positionable2 {
+  width: 120px;
+  height: 40px;
+}
+select, input {
+  margin-left: 15px;
+}

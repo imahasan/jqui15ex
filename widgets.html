@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- font links -->
+
+    <!-- CSS links -->
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Interactions</title>
+  </head>
+  <body>
+
+    <!-- header start -->
+    <header>
+      <div class="container">
+        <!-- navbar start -->
+        <nav class="navbar navbar-expand-lg navbar-light cus_nav">
+          <div class="container-fluid p-0">
+            <!-- logo start -->
+              <a class="navbar-brand" href="index.html">
+                <h1 class="ch1">JQ UI Practice</h1>
+              </a>
+            <!-- logo end -->
+
+            <!-- menu start -->
+            <!-- menu collapse start for md screen-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav_cus" aria-controls="nav_cus" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- menu collapse end for md screen -->
+            <!-- menu items start -->
+            <div class="collapse navbar-collapse menu" id="nav_cus">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Interactions</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="widgets.html">Widgets</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="effects.html">Effects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="utilities.html">Utilities</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- menu items end -->
+        <!-- menu end -->
+        <!-- navbar end -->
+      </div>
+    </header>
+    <!-- header end -->
+
+    <!-- accordion start -->
+    <div id="accordion">
+      <h3>Section 1</h3>
+      <div>
+        <p>
+        Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
+      </div>
+      <h3>Section 2</h3>
+      <div>
+        <p>
+        Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor velit, faucibus interdum tellus libero ac justo. Vivamus non quam. Insuscipit faucibus urna.</p>
+      </div>
+    </div>
+
+    <!-- default auto complete start -->
+    <br>
+    <div class="ui-widget">
+      <label for="tags">Tags: </label>
+      <input id="tags">
+    </div>
+    <hr><br>
+
+
+    <!-- datepicker -->
+    <p>Select your Date of Birth: <input type="text" id="datepicker"></p><hr><br>
+
+
+    <!-- default menu -->
+    <ul id="menu">
+      <li class="ui-state-disabled"><div>Toys (n/a)</div></li>
+      <li><div>SSB 417</div></li>
+      <li><div>Books</div></li>
+      <li><div>Clothing</div></li>
+      <li><div>Electronics</div>
+        <ul>
+          <li class="ui-state-disabled"><div>Home Entertainment</div></li>
+          <li><div>Car Hifi</div></li>
+          <li><div>Utilities</div></li>
+        </ul>
+      </li>
+      <li><div>Movies</div></li>
+      <li><div>Music</div>
+        <ul>
+          <li><div>Rock</div>
+            <ul>
+              <li><div>Alternative</div></li>
+              <li><div>Classic</div></li>
+            </ul>
+          </li>
+          <li><div>Jazz</div>
+            <ul>
+              <li><div>Freejazz</div></li>
+              <li><div>Big Band</div></li>
+              <li><div>Modern</div></li>
+            </ul>
+          </li>
+          <li><div>Pop</div></li>
+        </ul>
+      </li>
+      <li class="ui-state-disabled"><div>Specials (n/a)</div></li>
+    </ul>
+    <hr><br>
+
+    <!-- slider start -->
+    <div  id="slider"></div><hr><br>
+
+    <!-- tabs start -->
+    <div id="tabs">
+      <ul>
+        <li><a href="#tabs-1">Nunc tincidunt</a></li>
+        <li><a href="#tabs-2">Proin dolor</a></li>
+        <li><a href="#tabs-3">Aenean lacinia</a></li>
+      </ul>
+      <div id="tabs-1">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id laboriosam porro dolor a, labore ipsam?</p>
+      </div>
+      <div id="tabs-2">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi repudiandae esse earum optio non culpa similique iure vero eaque. Eligendi, harum atque nemo exercitationem est!</p>
+      </div>
+      <div id="tabs-3">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate corrupti ipsum quasi nemo necessitatibus consequuntur ullam dolorum dicta eligendi labore fugit accusantium, reprehenderit eveniet aspernatur libero iure praesentium consequatur deserunt provident hic adipisci vitae officiis!</p>
+      </div>
+    </div>
+
+    <hr><br>
+
+    <!-- tooltip start -->
+    <form>
+      <fieldset>
+        <div>
+          <label class="lebels" for="firstname">Firstname</label>
+          <input id="firstname" name="firstname" title="Please provide your firstname.">
+        </div>
+        <div>
+          <label for="lastname">Lastname</label>
+          <input id="lastname" name="lastname" title="Please provide also your lastname.">
+        </div>
+        <div>
+          <label for="address">Address</label>
+          <input id="address" name="address" title="Your home or work address.">
+        </div>
+      </fieldset>
+    </form>
+
+    <hr><br>
+
+
+
+
+
+
+    <!-- JS links -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

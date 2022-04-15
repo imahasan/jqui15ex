@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- font links -->
+
+    <!-- CSS links -->
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Interactions</title>
+  </head>
+  <body>
+
+    <!-- header start -->
+    <header>
+      <div class="container">
+        <!-- navbar start -->
+        <nav class="navbar navbar-expand-lg navbar-light cus_nav">
+          <div class="container-fluid p-0">
+            <!-- logo start -->
+              <a class="navbar-brand" href="index.html">
+                <h1 class="ch1">JQ UI Practice</h1>
+              </a>
+            <!-- logo end -->
+
+            <!-- menu start -->
+            <!-- menu collapse start for md screen-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav_cus" aria-controls="nav_cus" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- menu collapse end for md screen -->
+            <!-- menu items start -->
+            <div class="collapse navbar-collapse menu" id="nav_cus">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Interactions</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="widgets.html">Widgets</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="effects.html">Effects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="utilities.html">Utilities</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- menu items end -->
+        <!-- menu end -->
+        <!-- navbar end -->
+      </div>
+    </header>
+    <!-- header end -->
+
+    <!-- draggable example -->
+    <h1 id="h1_drag" class="ui-widget-content">This is a dragabble h1 heading.</h1><br><hr class="text-center">
+
+    <!-- droppable example -->
+    <div class="drop">
+      <div id="draggable" class="ui-widget-content">
+        <p>Drag me to the bigger box</p>
+      </div>
+
+      <div id="droppable" class="ui-widget-header">
+        <p>Drop here</p><br>
+        <h4>bigger box</h4>
+      </div>
+    </div>
+    <br>
+
+    <!-- resizable example -->
+    <br><br><br><br><br><br>
+    <hr>
+
+    <div id="resizable" class="ui-widget-content">
+      <h3 class="ui-widget-header">Resizable</h3>
+    </div>
+    <br><hr>
+
+    <!-- Selectable example -->
+    <p id="feedback">
+    <span>You&apos;ve selected:</span> <span id="select-result">none</span>.
+    </p>
+
+    <ol id="selectable">
+      <li class="ui-widget-content">Item 1</li>
+      <li class="ui-widget-content">Item 2</li>
+      <li class="ui-widget-content">Item 3</li>
+      <li class="ui-widget-content">Item 4</li>
+      <li class="ui-widget-content">Item 5</li>
+      <li class="ui-widget-content">Item 6</li>
+    </ol>
+
+    <br><hr>
+
+    <!-- sortable example -->
+    <ul id="sortable">
+      <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 1</li>
+      <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 2</li>
+      <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 3</li>
+      <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 4</li>
+      <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 5</li>
+      <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 6</li>
+      <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 7</li>
+    </ul>
+
+    <!-- JS links -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
